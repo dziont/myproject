@@ -70,9 +70,13 @@ The following files are available for the train and test data. Their description
 
 
 Load both test and train data
+
 Load the features and activity labels.
+
 Merge the data sets.
+
 Extract the mean and standard deviation column names and data.
+
 Process the data. There are two parts processing test and train data respectively.
 
    

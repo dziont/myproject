@@ -1,6 +1,10 @@
 Getting and cleaning data set:
+
+
 For creating a tidy data set of wearable computing data originally from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
 Files in this repo:
+
 README.md -- you are reading it right now
 CodeBook.md -- codebook describing variables, the data and transformations
 run_analysis.R -- actual R code
@@ -12,5 +16,6 @@ activity_labels.txt
 features.txt
 test/
 train/
+
 The output is created in working directory with the name of tidy2.txt
 

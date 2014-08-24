@@ -1,17 +1,17 @@
 
 # read the data sets
 
-test.labels <- read.table("test/y_test.txt", col.names="label")
-test.subjects <- read.table("test/subject_test.txt", col.names="subject")
-test.data <- read.table("test/X_test.txt")
-train.labels <- read.table("train/y_train.txt", col.names="label")
-train.subjects <- read.table("train/subject_train.txt", col.names="subject")
-train.data <- read.table("train/X_train.txt")
+t.labels <- read.table("test/y_test.txt", col.names="label")
+t.subjects <- read.table("test/subject_test.txt", col.names="subject")
+t.data <- read.table("test/X_test.txt")
+n.labels <- read.table("train/y_train.txt", col.names="label")
+n.subjects <- read.table("train/subject_train.txt", col.names="subject")
+n.data <- read.table("train/X_train.txt")
 
 # merge datasets in the format of: subjects, labels, everything else
 
-data <- rbind(cbind(test.subjects, test.labels, test.data),
-              cbind(train.subjects, train.labels, train.data))
+data <- rbind(cbind(t.subjects, t.labels, t.data),
+              cbind(n.subjects, n.labels, n.data))
 
 
 # read the features

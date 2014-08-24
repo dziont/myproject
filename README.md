@@ -19,5 +19,5 @@ features.txt
 test/
 train/
 
-The output is created in working directory with the name of tidy2.txt
+The output is created in working directory with the name of neat.txt
 
